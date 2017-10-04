@@ -10,12 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "blipp": "^2.3.0",
     "boom": "^5.2.0",
+    "handlebars": "^4.0.10",
     "hapi": "^16.6.0",
+    "hapi-auth-jwt2": "^7.3.0",
     "hapi-swagger": "^7.7.1",
     "inert": "^4.2.1",
     "joi": "^10.6.0",
+    "jsonwebtoken": "^8.0.1",
     "nodemon": "^1.12.1",
+    "remove": "^0.1.5",
+    "swagger-ui-dist": "^3.3.1",
     "vision": "^4.1.1"
   }
 }

@@ -17,12 +17,18 @@ const Routes = [
             },
             description: 'hello name',
             notes: 'Returns a greeting with name',
-            tags: ['api', 'api1'],
+            tags: ['api'],
             validate: {
                 params: {
                     name: Joi.string().required().description('your name')
+                },
+                headers: {
+                    Authorization: Joi.string().required()
                 }
             },
+            security: [{
+                api_key: [ ]
+            }]
         },
     },
     {
